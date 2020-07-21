@@ -1,0 +1,453 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:600i&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
+  <title>Patient-Reported Outcomes version of the Common Terminology Criteria for Adverse Events (PRO-CTCAE)</title>
+</head>
+<body>
+  <a href="#themaincontent" id="skiptocontent" tabindex="0" aria-hidden="false">skip to main content</a>
+  <div id="wrapper">
+    <div class="container-fluid padding-0">
+      <a href="#veryVeryBottom" id="veryVeryTop" aria-hidden="true"></a>
+      <main class="top">
+        <div class="row heros2">
+          <div class="col-xs-12 col-lg-12">
+            <header class="landing">
+              <img src="images/NIH_logo.svg" class="img-responsive nih" alt="National Institutes of Health (NIH) Logo">
+            </header>
+            <div class="topColorDiv">
+              <div class="center3">
+                <h1 class="title"><i>Patient Preferences for <span class="ml5">Cancer Symptom Relief</span></i></h1>
+                <img src="images/PRO-CTCAE_logo.svg" class="img-responsive ctLogo" alt="Patient Preferences for Cancer Symptom Relief Logo">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-12 col-lg-12">
+            <div class="hero-img-container">
+              <div class="hero-img"></div>
+              <div class="landing-panel">
+                <p class="text-center">Welcome to the <span class="blue">Patient Preferences for Cancer Symptoms Relief</span> study.<br>Please enter the PIN Code which was included in red<br>in your invitation letter</p><br>
+                <div class="form-signin my-3 text-center">
+                  <label for="accessCode1" id="MainContent_Label1" class="form-signin-heading mb-2">Please enter your PIN Code to begin</label>
+                  <div style="position:relative;">
+                    <center>
+                      <input name="access" type="password" maxlength="50" size="5" id="accessCode1" class="form-control access-pin" placeholder="" autocomplete="false">
+                      <div id="togglePassword">
+                        <img src="images/show_pw_icon.svg" alt="Icon for Show Access Code" width="30" height="24" id="eye" tabindex="0" aria-hidden="false" aria-label="Show Access Code" role="button">
+                      </div>
+                      <div id="togglePassword2">
+                        <img src="images/show_pw_icon.svg" alt="Icon for Show Access Code" width="30" height="24" class="mobileOnly" id="closedEye">
+                      </div>
+                    </center>
+                    <div class="checkbox">
+                      <label class="t-teal">
+                        <input id="togglePassword" type="checkbox" value="1">
+                      </div>
+                    </div>
+
+                    <input type="submit" name="" value="Start Survey" id="MainContent_btnContinue" class="button-default">
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </main>
+
+        <div class="row stickBottomMobile" id="stickyBottom">
+          <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 padding-0 new">
+            <a href="#top" id="bottom" tabindex="0" aria-hidden="false" aria-label="About the Study" role="link" data-target="#about">
+              <div class="tealBox first">
+                <div class="vertical mobile">
+                  <img class="img-responsive about" src="images/About_button_icon.svg" alt="About the Survey Icon">
+
+                  <h1 class="whiteStrong">About the Study</h1>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 padding-0 new">
+            <a href="#veryTop" id="veryBottom" tabindex="0" aria-hidden="false" aria-label="FAQs" role="link" data-target="#faqs">
+              <div class="tealBox second">
+                <div class="vertical">
+                  <img class="img-responsive about" src="images/FAQ_button_icon.svg" alt="FAQ Icon">
+                  <h1 class="whiteStrong">FAQ</h1>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 padding-0 new">
+            <a href="#topLastAnchor" id="bottomLastAnchor" tabindex="0" aria-hidden="false" aria-label="Contact Us" role="link" data-target="#contact">
+              <div class="tealBox third">
+                <div class="vertical">
+                  <img class="img-responsive about" src="images/Contact_button_icon.svg" alt="Contact Button">
+                  <h1 class="whiteStrong">Contact</h1>
+                </div>
+              </div>
+            </a>
+            <a href="#bottom" id="top"></a>
+          </div>
+        </div>
+
+        <div class="row" id="themaincontent">
+          <div class="col-lg-12 col-xs-12">
+            <center>
+              <h1 class="p1 fortyEight" id="about">About the Study</h1>
+            </center>
+
+          </div>
+        </div>
+
+        <center>
+          <section class="block6 w800">
+            <div class="heros">
+              <div class="row p35">
+                <div class="lightGray">
+                  <div class="non-reverse">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-0 newBoot">
+                      <p class="small content-top transparent-opacity">We are trying to understand peoples&rsquo; experiences of <i><span class="teal">Symptoms</span>.</i></p>
+                      <p class="small inner content-middle transparent-opacity">This study will tell us whether people with different<br>symptom experiences are</p>
+
+                      <div class="center mb3 content-bottom transparent-opacity">
+                        <div class="col-lg-5 col-md-4 col-sm-5 col-xs-12">
+                          <h1 class="blue">better off</h1>
+                          <h1 class="black">or</h1>
+                          <h1 class="teal">worse off</h1>
+                        </div>
+
+                        <div class="col-lg-5 col-md-4 col-sm-5 col-xs-12">
+                          <img src="images/About_thumbs_icon.svg" class="img-responsive thumbs" alt="thumbs up graphic">
+
+                        </div>
+                      </div>
+
+                      <br><br>
+
+                      <p class="small content-secondLast transparent-opacity">Thank you in advance for your contribution to science and<br>to people who have cancer.</p>
+
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </center>
+
+        <a href="#veryBottom" id="veryTop" aria-hidden="true"></a>
+        <article class="sticky">
+          <div class="row heros3">
+            <div class="col-lg-12">
+              <div class="vertical transparent" id="stickySide">
+                <a href="#veryVeryTop" id="veryVeryBottom" tabindex="0" aria-hidden="false" aria-label="To Top" role="link">
+                  <div class="circle blue">
+                    <img src="images/Back_to_Top_chevron.svg" class="img-responsive scroll" alt="Scroll back to top icon">
+                  </div>
+                </a>
+                <a href="#top" id="bottom2" tabindex="0" aria-hidden="false" aria-label="About the Survey" role="link">
+                  <div class="circle first">
+                    <img src="images/About_button_icon.svg" class="img-responsive scroll" alt="About the Survey icon"></div>
+                  </a>
+                  <a href="#veryTop" id="veryBottom2" tabindex="0" aria-hidden="false" aria-label="FAQs" role="link">
+                    <div class="circle second">
+                      <img src="images/FAQ_button_icon.svg" class="img-responsive scroll" alt="FAQ icon"></div>
+                    </a>
+                    <a href="#topLastAnchor" id="bottomLastAnchor2" tabindex="0" aria-hidden="false" aria-label="Contact Us" role="link">
+                      <div class="circle third">
+                        <img src="images/Contact_button_icon.svg" class="img-responsive scroll" alt="Contact icon">
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <section class="block5">
+                <div class="heros">
+                  <div class="row content-top transparent-opacity">
+
+                    <div class="col-xs-12 col-lg-12">
+                      <center>
+                        <h1 class="pb1 fortyEight" id="faqs">Frequently Asked Questions</h1>
+                      </center>
+                    </div>
+                  </div>
+
+                  <div class="row mb4 content-middle transparent-opacity">
+                    <div class="col-xs-12 col-lg-12">
+
+                      <div class="wrapper center-block">
+                        <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                          <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="headingOne">
+                              <h4 class="panel-title">
+                                <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne" tabindex="0">
+                                  What is this study about?
+                                </a>
+                              </h4>
+                            </div>
+                            <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+                              <div class="panel-body">
+                                <ul class="papaya">
+                                  <li>The symptoms that people experience when they have cancer are an important component of their health.</li>
+                                  <li>We are conducting this study to explore patients’ experiences with different symptoms in order to understand how symptom frequency, severity and interference affect how people feel and function.</li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="headingTwo">
+                              <h4 class="panel-title">
+                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" tabindex="0">
+                                  Who is conducting this survey?
+                                </a>
+                              </h4>
+                            </div>
+                            <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                              <div class="panel-body">
+                                <ul class="papaya">
+                                  <li>This study is being conducted by the National Cancer Institute in collaboration with the State Cancer Registries.</li>
+                                  <li>The study was approved by the Institutional Review Board of the National Institutes of Health.</li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="headingThree">
+                              <h4 class="panel-title">
+                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree" tabindex="0">
+                                  How is the information collected?
+                                </a>
+                              </h4>
+                            </div>
+                            <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                              <div class="panel-body">
+                                <ul class="papaya">
+                                  <li>The information is collected using an online survey.</li>
+                                  <li>Paper surveys will be used by participants who do not have internet access or who prefer to use a paper survey.</li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="headingFour">
+                              <h4 class="panel-title">
+                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour" tabindex="0">
+                                  How was I selected for this study?
+                                </a>
+                              </h4>
+                            </div>
+                            <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+                              <div class="panel-body">
+                                <ul class="papaya">
+                                  <li>You were invited to participate in this study through your state cancer registry.</li>
+                                  <li>Each state collects information from hospitals and maintains a state-wide cancer registry.</li>
+                                  <li>More information about the <a style="text-decoration: underline !important;color:#23527c" href="https://www.cdc.gov/cancer/npcr/value/registries.htm" target="_blank">cancer registries program</a> <i class="fas fa-external-link-alt"></i> is available from the Center for Disease Control.</li>
+
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="headingFive">
+                              <h4 class="panel-title">
+                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive" tabindex="0">
+                                  How long will the study take?
+                                </a>
+                              </h4>
+                            </div>
+                            <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
+                              <div class="panel-body">
+                                <ul class="papaya">
+                                  <li>Most people will be able to complete the study survey in about 15 minutes. You may need more or less time.</li>
+                                  <li>This study consists of a survey only. Your participation will be complete after you answer the survey items.</li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="headingSix">
+                              <h4 class="panel-title">
+                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseSix" aria-expanded="false" aria-controls="collapseSix" tabindex="0">
+                                  How will my privacy be protected?
+                                </a>
+                              </h4>
+                            </div>
+                            <div id="collapseSix" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSix">
+                              <div class="panel-body">
+                                <ul class="papaya">
+                                  <li>All the information you give to this study will be kept private, and your answers will not be connected with your name or any other personal information.</li>
+                                  <li>Only group level or summary results will be shared or published.</li>
+                                  <li>You will be offered an Amazon Gift Card and you may elect to have the gift card number e-mailed to you. If you provide your e-mail address for this purpose, we will not retain it after sending you your gift card number.</li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+
+              <section class="block50">
+                <div class="heros">
+                  <div class="row">
+                    <div class="col-xs-12 col-lg-12">
+
+                      <div class="hero-img-container secondOne" id="bottomBlock">
+                        <div class="bottom-overlay" id="whiteBlock">
+                          <div class="col-lg-5 col-lg-offset-2 col-md-5 col-sm-3 col-xs-12 pt13">
+                            <h6 class="blue" id="contact">
+                              <span class="teal">Contact us</span> with any<br class="noBreak"> questions or comments about the <span class="lightTeal">Patient Preferences for Cancer Symptom Relief Survey!</span>
+                            </h6>
+                          </div>
+
+                        </div>
+
+                        <div class="hero-img secondOne" id="bottomPic"></div>
+
+                        <div id="slideOut" class="content-top">
+                          <div class="modal-content">
+                            <div class="firstBlock">
+                              <div class="modal-header">
+
+                                <center class="pt1">
+                                  <p class="whiteLarge p1" id="smaller">If you need assistance,<br>you can contact the PRO-CTCAE<br>team by phone at<br><a class="dial" href="tel:185595460868" tabindex="0" aria-hidden="false" aria-label="1-855-954-0868">1-855-954-0868</a></p>
+                                </center>
+                              </div>
+                              <div class="modal-body">
+
+                                <form method="post" data-form-title="CONTACT US" class="slideForm" id="theform">
+                                  <p class="modalFooter">*Required Field</p>
+                                  <div class="form-group">
+                                    <label for="formControl1">Name*</label>
+                                    <input id="formControl1" type="text" class="form-control required secondOne mandatoryfields" tabindex="0" aria-hidden="false" name="name" data-form-field="Name" required/>
+                                  </div>
+                                  <div class="form-group">
+                                      <label for="formControl2">Email*</label>
+                                      <input type="email" id="formControl2" class="form-control required secondOne mandatoryfields" tabindex="0" aria-hidden="false" name="email" data-form-field="Email" required/>
+                                  </div>
+
+                                  <div class="form-group">
+                                    <fieldset>
+                                    <label for="general-inquiry">Reason for Contact*</label>
+                                    <div class="around">
+                                      <div class="vertical">
+                                        <img src="images/General_Inquiry_icon.svg" class="img-responsive formIcon" alt="">
+                                        <legend>Reason for Contact</legend>
+                                          <label class="radio-inline">
+                                            <input type="radio" name="optradio" class="required mandatoryfields checks" tabindex="0" aria-hidden="false" id="general-inquiry" required checked>General Inquiry
+                                          </label>
+
+                                      </div>
+                                      <div class="vertical">
+                                        <img src="images/technical.svg" class="img-responsive formIcon" alt="">
+
+                                          <label class="radio-inline">
+                                            <input type="radio" name="optradio" class="required mandatoryfields checks" tabindex="0" aria-hidden="false" required/>Technical Issue
+                                          </label>
+
+                                      </div>
+                                      <div class="vertical">
+                                        <img src="images/Other_icon.svg" class="img-responsive formIcon" alt="">
+
+                                          <label class="radio-inline">
+                                            <input type="radio" name="optradio" class="required mandatoryfields checks" tabindex="0" aria-hidden="false" required/>Other
+                                          </label>
+
+                                      </div>
+                                    </div>
+                                    </fieldset>
+                                  </div>
+                                  <div class="form-group">
+                                    <label for="formControl4">Message*</label>
+                                    <textarea class="form-control thirdOne required mandatoryfields" id="formControl4" tabindex="0" aria-hidden="false" name="message" required="true" rows="7" data-form-field="Message" required/></textarea>
+                                  </div>
+                                  <div class="bottomLine">
+                                    <button type="submit" class="btn btn-info button-outlined" id="sendMessage" tabindex="0" aria-hidden="false"><i class="fa fa-envelope-o"></i>Send</button>
+                                  </div>
+
+                                </form>
+
+                              </div>
+                              <div class="modal-footer">
+
+                              </div>
+                            </div>
+
+                            <div class="secondBlock">
+                              <div class="modal-header">
+                                <br>
+                                <center class="pt1">
+                                  <h1 class="white p1" id="smaller"></h1>
+                                </center>
+                              </div>
+                              <div class="modal-body">
+                                <div class="vertical pt40">
+                                  <h1 class="white sentMessage" id="smaller">Thank you for contacting PRO-CTCAE.</h1>
+                                  <img src="images/Sent_Checkmark_icon.svg" class="img-responsive sentCheck" alt="sent checkmark graphic icon">
+                                  <h1 class="white sentMessage" id="smaller">Your message was sent successfully!</h1>
+                                </div>
+                              </div>
+                              <div class="modal-footer">
+
+                              </div>
+                            </div>
+                          </div>
+
+                        </div>
+
+                      </div>
+
+                    </div>
+                    <a href="#bottomLastAnchor" id="topLastAnchor" aria-hidden="true"></a>
+                  </div>
+                </div>
+              </section>
+            </article>
+          </div>
+        </div>
+        <script
+        src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+
+        <script src="js/bootstrap.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="http://jschr.github.io/textillate/jquery.textillate.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lettering.js/0.7.0/jquery.lettering.js"></script>
+        <script src="js/index.js"></script>
+
+
+        <script>
+
+        $('.button-default').click(function(){
+          window.location.href="consent.html";
+        });
+
+
+
+        </script>
+
+      </body>
+      </html>

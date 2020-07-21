@@ -1,0 +1,745 @@
+
+.alert {
+  height: auto;
+  display: inline-block;
+}
+
+.masthead {
+  padding-left: 90px;
+  vertical-align: middle;
+  margin-left: -1em;
+  margin-right: -1em;
+}
+
+.masthead h1 {
+  vertical-align: middle;
+  padding: 1.7em 0em 0em 3em;
+  font-size: 22px;
+  font-weight: 800;
+}
+
+.masthead h2 {
+  vertical-align: middle;
+  padding: 1em 0em .5em 0em;
+  font-size: 22px;
+  font-weight: 800;
+  color: #036EB7;
+}
+
+.masthead0 {
+  background-position: left;
+  background-repeat: no-repeat;
+  background-image: url(../logoLG.PNG);
+  height: 100px;
+}
+
+.panelfaq {
+  height: 600px;
+  padding: 2px;
+  overflow-y: scroll;
+  overflow-x: visible;
+}
+
+.panelconsent {
+  height: 300px;
+  padding: 0;
+  overflow-y: scroll;
+  overflow-x: visible;
+  margin: 20px;
+}
+
+.outerconsent {
+  border-width: 2px;
+  border-style: solid;
+  border-color: #7a8288;
+}
+
+.masthead1 {
+  background-position: right;
+  background-repeat: no-repeat;
+  border: none;
+}
+
+.masthead0 h1 {
+  color: #003f72;
+}
+
+.masthead1 h1 {
+  color: #815887;
+}
+
+#survey label {
+  margin-bottom: 0px;
+  font-weight: normal;
+  font-size: 0px;
+}
+
+
+#survey td.radioclick label {
+  margin-bottom: 0px;
+  font-weight: normal;
+  font-size: 0px;
+}
+
+#survey .form-control {
+  width: inherit;
+  display: inline;
+}
+
+.radio + .radio, .checkbox + .checkbox {
+  margin: -1px;
+}
+
+.q {
+  margin-top: 2em;
+  margin-left: 1em;
+}
+
+.q-indicator {
+  margin-left: -1em;
+  float: left;
+  min-width: 1em;
+  font-weight: bold;
+  text-align: left;
+  display: none;
+}
+
+.q-symbol {
+  background-image: url('../play16.png');
+  background-repeat: no-repeat;
+  background-position-x: left;
+  background-position-y: center;
+}
+
+.prompt {
+  padding: 0px 20px 2px 0px;
+  margin-top: .1em;
+  font-weight: bold;
+}
+
+.resp {
+  margin-top: 3px;
+}
+
+.resp-line, .flowlabel > label, .stacklabel > label {
+  border-top: 1px solid #edecec;
+  padding: .5em 0em .5em 2em;
+  border-radius: 4px;
+}
+
+.resp-line {
+  padding-left: .5em;
+}
+
+
+.flowlabel > label {
+  display: inline;
+}
+
+.stacklabel > label, .resp-line {
+  display: block;
+  margin-top: .2em;
+}
+
+input[type='text'] {
+}
+
+textarea {
+  display: block;
+}
+
+.tbl,
+.mxplus,
+.mx {
+  border: solid 1px #ddd;
+}
+
+
+.tbl > thead > tr > th,
+.tbl > tbody > tr > th,
+.tbl > tbody > tr > td,
+.tbl > thead > tr > td {
+  border-bottom: 1px solid #ddd;
+  padding: .2em;
+}
+
+.tbl > thead > tr > th,
+.tbl > thead > tr > td {
+  border-bottom-width: 2px;
+}
+
+/* center the content cells*/
+.tbl tbody > tr > td,
+.mxplus tbody > tr > td,
+.mx tbody > tr > td {
+  text-align: center;
+}
+/* matrix row header*/
+.tbl tbody > tr > th,
+.mxplus tbody > tr > th,
+.mx tbody > tr > th {
+  text-align: left;
+  padding: .5em .5em .5em .5em;
+  font-weight: normal;
+}
+/* column headers*/
+.tbl thead > tr > th,
+.mxplus thead > tr > th,
+.mxplus thead > tr > td,
+.mx thead > tr > td,
+.mx thead > tr > th {
+  text-align: center;
+  background-color: #e8e8e8;
+  padding: .5em .5em .5em .5em;
+  vertical-align: bottom;
+  border-bottom: 1px solid #ddd;
+}
+
+.mx-header-left {
+  text-align: left;
+}
+
+.tbl-row,
+.mxplus-row,
+.mx-row {
+  background-color: #FFFFFF;
+}
+
+.tbl-row-alt,
+.mxplus-row-alt,
+.mx-row-alt {
+  background-color: #f5f5f5;
+}
+
+.mxplus-row-alt > td,
+.mxplus-row > td {
+  /*border-bottom-style:solid;*/
+}
+
+.mx-question {
+  vertical-align: top
+}
+
+.mx-qnumber {
+  vertical-align: top;
+  text-align: right;
+  padding-top: .5em;
+}
+
+.mx-cell-leftborder, .mx-cell-spacer {
+  border-left-style: dashed;
+  border-left-width: thin;
+}
+
+.mx-cell-rightborder {
+  border-right-style: dashed;
+  border-right-width: thin;
+}
+
+
+.mxplus tbody > tr > td > label.radio {
+  display: inline;
+  padding-left: 0px;
+}
+
+.mxplus input[type='radio'], .mxplus input[type='checkbox'] {
+  margin-left: 0em;
+  float: none;
+}
+
+.optiongroup {
+  margin-top: .5em;
+  margin-bottom: .5em;
+}
+
+.optiongroupheader {
+  font-weight: bold;
+}
+
+
+/* scale questions*/
+.scale {
+}
+
+/* center the content cells*/
+.scale thead > tr > th {
+  text-align: center;
+  padding: 0px;
+  background-color: transparent;
+  border-left: none;
+  border-right: none;
+  border-bottom: 2px solid #ddd;
+}
+
+.scale tbody > tr > td {
+  text-align: center;
+  padding: 8px;
+}
+
+
+
+
+
+/*style applied to td elements of add-new row of table control*/
+.tbl-addnew {
+  background-color: #E8EFFC;
+}
+
+.tbl-addnew > td {
+  padding-top: 1em;
+  border-top: 1px double #CECECE;
+}
+
+/*style applied to div below table containing any buttons*/
+tbl-btnbox {
+}
+
+.sbfile {
+  /*border: 1px solid #e7eaec;
+  background-color: #ffffff;*/
+  padding: 0;
+  position: relative;
+  margin: .4em;
+  padding: .2em;
+  text-align: left;
+}
+
+.sbfile .icon i {
+  font-size: 40px;
+  color: #dadada;
+  float: left;
+  display: inline;
+  padding-right: .5em;
+}
+
+.sbfile a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.sbfile .icon,
+.sbfile .image {
+  height: 100px;
+  overflow: hidden;
+}
+
+.sbfile .icon {
+}
+
+.sbfile .sbfile-name {
+  padding: .2em;
+  /* background-color: #f8f8f8;
+  border-top: 1px solid #e7eaec;*/
+  margin-top: .2em;
+}
+
+.sbfile-value {
+  /*height:100px;
+  border:2px black solid;*/
+  margin: auto;
+  position: relative;
+}
+
+.sbfile-thumbnail {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.sbfile-control {
+}
+
+/* SB signature*/
+
+.sig {
+  padding: .2em;
+  /* Prevent nearby text being highlighted when accidentally dragging mouse outside confines of the canvas */
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.sig > canvas {
+  display: block;
+  border-bottom: 2px solid #CECECE;
+  margin-bottom: .2em;
+  position: relative;
+}
+
+.sig > button.sig-start {
+  border: 2px solid #888;
+  display: block;
+  font-size: xx-large;
+}
+
+
+
+/*State settings*/
+div.sig-empty > canvas,
+div.sig-empty > button.sig-end,
+div.sig-empty > button.sig-cancel,
+div.sig-empty > button.sig-delete {
+  display: none;
+}
+/* signing*/
+div.sig-signing > button.sig-start,
+div.sig-signing > button.sig-delete {
+  display: none;
+}
+
+div.sig-signing > canvas {
+  border-bottom: 2px solid #036EB7;
+  border-top: 1px solid #CECECE;
+  border-left: 1px solid #CECECE;
+  border-right: 1px solid #CECECE;
+  background-color: #E8EFFC;
+  border-radius: 4px;
+}
+
+/* signed*/
+div.sig-signed > button.sig-start,
+div.sig-signed > button.sig-end,
+div.sig-signed > button.sig-cancel {
+  display: none;
+}
+
+div.sig-signed > canvas {
+  opacity: 0.6;
+  filter: alpha(opacity=60); /* msie */
+}
+
+
+/* end sb styles*/
+
+.well {
+  background-image: -webkit-gradient(linear, left 0%, left 100%, from(#e8e8e8), to(#f5f5f5));
+  background-image: -webkit-linear-gradient(top, #e8e8e8 0%, #f5f5f5 80%);
+  background-image: -moz-linear-gradient(top, #e8e8e8 0%, #f5f5f5 100%);
+  background-image: linear-gradient(to bottom, #e8e8e8 0%, #f5f5f5 100%);
+  background-repeat: repeat-x;
+  border: 1px solid #a9a9a9;
+  padding: 5px;
+  padding-left: 10px;
+  margin-top: 10px;
+  /* filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffe8e8e8', endColorstr='#fff5f5f5', GradientType=0);
+  -webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.05), 0 1px 0 rgba(255, 255, 255, 0.1);
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.05), 0 1px 0 rgba(255, 255, 255, 0.1);*/
+}
+
+.text-muted {
+  color: #333333;
+  font-weight: normal;
+}
+
+.normal {
+  /* color: #7a8288;*/
+  font-weight: normal;
+  color: #333333;
+}
+
+.continue1 {
+  font-style: italic;
+  margin-left: 7px;
+}
+
+.continue {
+  font-style: italic;
+  margin-left: 14px;
+}
+
+.consent {
+  width: 800px;
+  height: 500px;
+  overflow: scroll;
+}
+
+.boxlist li {
+  line-height: 1.2em;
+  padding: 3px;
+}
+
+.signin {
+  font-size: 18px;
+}
+
+.phone {
+  font-weight: normal;
+}
+
+
+.sectiontitle {
+  font-weight: bold;
+  color: black;
+  text-align: center;
+  font-size: 12pt;
+  padding: 4px;
+  margin-top: 10px;
+  background-color: #D6E3BC; /*#DBE5F1;*/
+  height: 30px;
+}
+
+/*.sectiontitle label
+{font-weight:bold;
+
+}
+.sectiontitle .pullright
+{
+float:right;
+}*/
+.textbox1 {
+  padding-left: 35px;
+}
+
+.para {
+  font-weight: normal;
+  padding: 10px 0px 4px 0px;
+  margin-top: .1em;
+}
+
+label {
+  display: inline-block;
+  margin-bottom: 5px;
+  font-weight: normal;
+}
+
+.welcome {
+  font-size: 12pt;
+  font-style: italic;
+}
+
+.thankyou {
+  margin-top: 1em;
+  font-size: 14pt;
+}
+
+input[type=text]::-ms-clear {
+  display: none;
+}
+
+.pullright {
+  float: right;
+}
+
+
+.fbsection-heading {
+  border-bottom: 1px solid #036EB7;
+  font-size: 15pt;
+}
+
+.progressbar {
+  width: 200px;
+  height: 16px;
+  border: 1px solid #CCCCCC;
+  font-size: 12px;
+  position: relative;
+  top: -15px;
+  /*bottom:-40px;*/
+}
+
+.progresstext {
+  font-size: 80%;
+  font-weight: bold;
+  color: #6699FF;
+}
+
+.progresscolor {
+  background-color: #6699FF;
+}
+
+
+.alert-warning {
+  /*color: #c09853;
+  background-color: #fcf8e3;*/
+  color: #603900;
+  background-color: #feefb3;
+  border-color: #faebcc;
+}
+
+.alert-warning {
+  background-image: linear-gradient(to bottom, #feefb3 0%, #feefb3 100%);
+}
+
+.alert-danger {
+  /*color: #b94a48;
+  background-color: #f2dede;*/
+  color: #790006;
+  background-color: #ffbaba;
+  border-color: #ebccd1;
+}
+
+.btn-primary {
+  background-image: -webkit-gradient(linear, left 0%, left 100%, from(#428bca), to(#2d6ca2));
+  background-image: -webkit-linear-gradient(top, #2a5c88 0%, #2d6ca2 100%);
+  background-image: -moz-linear-gradient(top, #2a5c88 0%, #2d6ca2 100%);
+  background-image: linear-gradient(to bottom, #2a5c88 0%, #2d6ca2 100%);
+  background-repeat: repeat-x;
+  border-color: #2b669a;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#2a5c88', endColorstr='#ff2d6ca2', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+}
+
+.sr-only {
+  display: none;
+  /*position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;*/
+}
+
+
+fieldset {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+legend {
+  display: block;
+  width: 100%;
+  padding: 0;
+  /*margin-bottom: 20px;
+  font-size: 21px;*/
+  font-size: inherit;
+  line-height: inherit;
+  border: 0;
+  margin-bottom: 1em;
+  /*border-bottom: 1px solid #e5e5e5;*/
+}
+
+.req {
+  color: red;
+}
+
+.panel-body h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 1em;
+}
+
+.modal-header h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0 1em;
+}
+
+.panel-body h4 {
+  font-size: 15px;
+  font-weight: bold;
+  margin: 0.5em 1em;
+}
+
+.panel-body p {
+  margin: 1em 1em 1.5em 1em;
+}
+
+.panel-body li {
+  /*margin-bottom:1.5em;*/
+}
+
+.drink img {
+  max-width: 100%;
+}
+
+
+.nextline {
+  display: block;
+}
+
+p.footerbuttons {
+  margin-top: .2em;
+}
+
+p.footerbuttons a {
+  margin-right: 1em;
+}
+
+
+
+.mx thead > tr > td, .mx thead > tr > th {
+  background-color: transparent;
+  padding: .5em .5em .5em 0em !important;
+  vertical-align: bottom;
+  border-bottom: none;
+  /*  text-align: right;*/
+  font-size: 18px;
+  font-weight: 700;
+}
+
+p.white {
+  color: white;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin: 0;
+  font-size: 17px;
+}
+
+.vertical legend {
+  font-size: 0px
+}
+
+td {
+  padding: 0;
+  padding-bottom: 1.5em !important;
+}
+
+
+.mx-question.prompt {
+  font-size: 18px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 100;
+  color: #404040;
+  max-width: 500px;
+  text-align: left;
+  padding: 1em;
+}
+
+table {
+  max-width: none;
+  border: none !important;
+}
+
+@media (min-width:1024px) {
+  table {
+    min-width: 1000px;
+  }
+}
+
+@media (max-width:767px) {
+  .prompt1 {
+    font-size: 23px !important;
+  }
+
+  .mx-question.prompt {
+    font-size: 15px;
+  }
+
+
+  input[type=checkbox] + label:after, input[type=radio] + label:after {
+    top: -1px !important;
+  }
+
+  input[type=radio] + label {
+    padding-left: 47px !important;
+  }
+
+  .mx thead > tr > td, .mx thead > tr > th {
+    vertical-align: baseline;
+    font-size: 9px;
+  }
+}
+
+
+.mx-row-alt {
+  background-color: #cce6e7 !important;
+}

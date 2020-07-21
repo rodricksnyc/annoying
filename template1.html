@@ -1,0 +1,531 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:600i&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/normalize.css">
+
+
+  <link rel="stylesheet" href="css/template.css"> 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
+  <title>Patient-Reported Outcomes version of the Common Terminology Criteria for Adverse Events (PRO-CTCAE)</title>
+
+</head>
+
+<style>
+
+#main-wrapper {
+  background: white;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  height: 100%;
+}
+
+
+
+</style>
+
+<body>
+
+  <div id="main-wrapper">
+    <div class="modalBackground" id="whiteModal" tabindex="-1" aria-labelledby="helpModal" aria-hidden="true" aria-label="Hover over or tab to a dot for more information">
+      <div class="col-xs-12 col-lg-12 col-md-12 bigClose">
+        <div class="rel" role="dialog">
+          <div class="helpBubble transparent-opacity" aria-hidden="true" aria-describedby="Hover over dots for help" id="helpModal">
+            <h2 class="white">Hover over or<br>tab to a dot for<br>more information</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="parentDiv">
+      <div class="rel">
+        <div class="yellowDot3 outerDot transparent-opacity" tabindex="5" aria-hidden="true" role="tooltip" aria-describedby="Contact_tab" aria-label="Contact tab">
+          <div class="blueDot3 innerDot"></div>
+        </div>
+        <div class="relativeDiv">
+          <div class="popIn33">
+            <div class="tools" id="Contact_tab" role="dialog">
+              <p class="white tool">This is a tab to access contact information</p>
+            </div>
+          </div>
+        </div>
+        <div class="blueTab new">
+          <center>
+            <h2 class="hiddenWhite">Contact</h2>
+          </center>
+        </div>
+      </div>
+    </div>
+    <main class="rel">
+      <div class="container-fluid padding-0">
+        <div class="row">
+          <div class="col-xs-12 col-lg-12">
+            <div class="topColorDiv">
+              <div class="center3">
+                <h1 class="title"><i>Patient Preferences for <span class="ml5">Cancer Symptom Relief</span></i></h1>
+                <img src="images/PRO-CTCAE_logo.svg" class="img-responsive ctLogo" alt="Patient Preferences for Cancer Symptom Relief Logo">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-xs-12 col-lg-5 col-lg-offset-1 col-md-6 col-md-offset-1 col-sm-6 col-sm-offset-0 col-xs-11 col-xs-offset-1">
+            <div class="parentDiv">
+              <div class="start showKey">
+                <div class="rel">
+                  <div class="pointer lightblue"><p class="blue text">Intro</p></div>
+
+                </div>
+                <div class="rel">
+                  <div class="pointer darkblue"><p class="white text">Symptom</p></div>
+
+                </div>
+                <div class="rel">
+                  <div class="pointer whitePointer"><p class="blue text">Wrap Up</p></div>
+
+                </div>
+                <div class="yellowDot1 outerDot transparent-opacity" tabindex="5" role="tooltip" aria-hidden="true" aria-describedby="Shows_progress" aria-label="Shows progress">
+                  <div class="blueDot1 innerDot"></div>
+                </div>
+              </div>
+              <div class="relativeDiv">
+                <div class="popIn00">
+                  <div class="tools" id="Shows_progress" role="dialog">
+                    <p class="white tool">Segment bar shows your overall<br>progress in this survey</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-lg-offset-3 col-md-3 col-md-offset-1 col-sm-4 col-sm-offset-1 col-xs-9 col-xs-offset-3">
+            <div class="verticalStack keyBox">
+              <div class="parentDiv">
+                <div class="relativeDiv">
+                  <div class="yellowDot2 outerDot transparent-opacity" tabindex="5" role="tooltip" aria-hidden="true" aria-describedby="Survey_key" aria-label="Survey key">
+                    <div class="blueDot2 innerDot"></div>
+                  </div>
+                  <div class="popIn11">
+                    <div class="tools" id="Survey_key" role="dialog">
+                      <p class="white tool">Key defines symbols used in the<br>survey response options</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="blueBack top">
+                  <p class="white">KEY</p>
+                </div>
+                <div class="center p1">
+                  <div class="vertical30">
+                    <img src="images/Frequency_icon.svg" class="img-responsive bulletIcons new" alt="frequency">
+                    <p class="smallBlue">Frequency</p>
+                  </div>
+
+                  <div class="vertical30">
+                    <img src="images/Severity_icon.svg" class="img-responsive bulletIcons new" alt="severity">
+                    <p class="smallBlue">Severity</p>
+                  </div>
+                  <div class="vertical30">
+                    <img src="images/Interference_icon.svg" class="img-responsive bulletIcons new" alt="interference">
+                    <p class="smallBlue">Interference</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="toast transparent-opacity" aria-live="polite" role="alert">
+          &#x2713; Thank you for contacting PRO-CTCAE.<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Message sent successfully.
+        </div>
+
+
+
+        <center class="top10">
+          <div class="width8">
+            <div class="blueOutline">
+              <div class="row">
+                <div class="col-xs-12 col-lg-12 col-md-12 rel">
+                  <div class="center abso">
+                    <div class="parentDiv">
+                      <div class="relativeDiv">
+                        <div class="yellowDot5 outerDot transparent-opacity" tabindex="5" role="tooltip" aria-hidden="true" aria-describedby="Shows_your_symptom" aria-label="Shows your symptom">
+                          <div class="blueDot5 innerDot"></div>
+                        </div>
+                        <div class="popIn55">
+                          <h2 class="blue">In the last 7 days, Persons A and B had Watery Eyes&nbsp;&nbsp;</h2>
+
+                          <div class="tools" id="Shows_your_symptom" role="dialog">
+                            <p class="white tool">This is the symptom<br>you are evaluating</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <img src="images/Watery_Eyes.svg" class="img-responsive crying" alt="">
+                  </div>
+                  <div class="margin2">
+                    <p class="blue">Please choose the person you think is <span class="blueBold">better off</span>, Person A or Person B.</p>
+                  </div>
+                </div>
+              </div>
+              <form>
+
+                <div class="row">
+                  <div class="parentDiv">
+                    <div class="relativeDiv">
+                      <div class="col-xs-12 col-lg-5 col-md-5 col-sm-12">
+                        <div class="verticalStack personA" id="whiteBox">
+                          <div id="firstChoice">
+                            <div class="fullCircle">
+                              <input name="PersonSelected" type="radio" id="PersonSelected_1" tabindex="1" class="mandatory checks" required>
+                              <label for="PersonSelected_1" class="activeRadio" aria-label="Person-A">
+                                <h3 class="white largest">Person A</h3>
+                              </label>
+                            </div>
+                          </div>
+                          <div class="blueBack new">
+                          </div>
+
+                          <div class="verticalNew">
+                            <div class="start3">
+                              <img src="images/Frequency_icon.svg" class="img-responsive bulletIcons new" alt="">
+                              <div class="tealBubble">
+                                <p class="level">occured <span class="key0"></span></p>
+                                <div class="tl1"></div>
+                                <div class="tl2"></div>
+                                <div class="tl3"></div>
+                                <div class="tl4"></div>
+                              </div>
+                            </div>
+
+                            <div class="start3">
+                              <img src="images/Severity_icon.svg" class="img-responsive bulletIcons new" alt="">
+                              <div class="magentaBubble">
+                                <p class="level">at its worst, was <span class="key1"></span></p>
+                                <div class="ml1"></div>
+                                <div class="ml2"></div>
+                                <div class="ml3"></div>
+                                <div class="ml4"></div>
+                              </div>
+                            </div>
+                            <div class="start3">
+                              <img src="images/Interference_icon.svg" class="img-responsive bulletIcons new" alt="">
+                              <div class="goldBubble">
+                                <p class="level">interfered <span class="key2"></span> with daily activities</p>
+                                <div class="gl1"></div>
+                                <div class="gl2"></div>
+                                <div class="gl3"></div>
+                                <div class="gl4"></div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="yellowDot22 outerDot transparent-opacity" tabindex="5" aria-hidden="true" aria-describedby="Shows_choices" aria-label="Shows choices" role="tooltip">
+                        <div class="blueDot22 innerDot"></div>
+                      </div>
+                      <div class="popIn22">
+                        <div class="tools" id="Shows_choices" role="dialog">
+                          <p class="white tool">Select one and<br>then submit, in<br>order to move to<br>next question</p>
+                        </div>
+                      </div>
+
+                      <div class="col-xs-12 col-lg-2 col-md-2 col-sm-12">
+                        <div class="vertical10 m50">
+                          <div class="flip"></div>
+                          <p>Or</p>
+                          <div class="flip"></div>
+                        </div>
+                      </div>
+
+                      <div class="col-xs-12 col-lg-5 col-md-5 col-sm-12">
+                        <div displayorder="1" id="SB_75" class="verticalStack personB" attributes="">
+                      <div displayorder="1" id="secondChoice" attributes="">
+                        <div displayorder="1" id="SB_76" class="fullCircle" attributes="">
+                          <div class="custom-control custom-radio mandatory checks">
+                            <input type="radio" name="PersonSelected" value="2" class="custom-control-input mandatory checks" id="PersonSelected_2" tabindex="1">
+                            <label for="PersonSelected_2" class="activeRadio">
+                              <h3 class="white largest">Person B</h3>
+                            </label>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="blueBack new"></div>
+                      <div displayorder="3" id="SB_77" class="verticalNew" attributes="">
+                        <div displayorder="1" id="SB_78" class="start3" attributes="">
+                          <img src="images/Frequency_icon.svg" class="img-responsive bulletIcons new" alt="Teal icon with a clock that represents frequency">
+                          <div displayorder="2" id="SB_79" class="tealBubble" attributes="">
+                            <p displayorder="1" id="SB_80" class="level" attributes="">occured <span displayorder="2" id="SB_81" class="key0" attributes="">occurred frequently</span></p><div class="tl1" style="display: block;"></div>
+                            <div class="tl2" style="display: block;"></div>
+                            <div class="tl3" style="display: none;"></div>
+                            <div class="tl4"></div></div>
+                        </div>
+                        <div displayorder="2" id="SB_82" class="start3" attributes="">
+                          <img src="images/Severity_icon.svg" class="img-responsive bulletIcons new" alt="Magenta icon with a thunderbolt that represents severity">
+                          <div displayorder="2" id="SB_83" class="magentaBubble" attributes="">
+                            <p displayorder="1" id="SB_84" class="level" attributes="">at its worst, was <span displayorder="2" id="SB_85" class="key1" attributes="">at its worst, was very severe</span></p>
+                            <div class="ml1" style="display: block;"></div>
+                            <div class="ml2" style="display: block;"></div>
+                            <div class="ml3" style="display: block;"></div>
+                            <div class="ml4"></div>
+                          </div>
+                        </div>
+                        <div displayorder="3" id="SB_86" class="start3" attributes="">
+                          <img src="images/Interference_icon.svg" class="img-responsive bulletIcons new" alt="Gold icon with a man that represents interference">
+                          <div displayorder="2" id="SB_87" class="goldBubble" attributes="">
+                            <p displayorder="1" id="SB_88" class="level" attributes="">interfered wery much with daily activities<span displayorder="2" id="SB_89" class="key2" attributes="">somewhat</span> with daily activities</p><div class="gl1" style="display: block;"></div><div class="gl2" style="display: block;"></div><div class="gl3" style="display: none;"></div><div class="gl4"></div></div>
+                        </div>
+                      </div>
+                    </div>
+                        <!-- <div class="verticalStack personB">
+                          <div id="secondChoice">
+                            <div class="fullCircle">
+                              <input name="selection" type="radio" id="PersonSelected_2" tabindex="1" class="mandatory checks" required>
+                              <label for="PersonSelected_1" class="activeRadio" aria-label="Person-B">
+                                <h3 class="white largest">Person B</h3>
+                              </label>
+                            </div>
+                          </div>
+                          <div class="blueBack new">
+
+                          </div>
+                          <div class="verticalNew">
+                            <div class="start3">
+                              <img src="images/Frequency_icon.svg" class="img-responsive bulletIcons new" alt="">
+                              <div class="tealBubble">
+                                <p class="level">occured <span class="key0"></span></p>
+                                <div class="tl1"></div>
+                                <div class="tl2"></div>
+                                <div class="tl3"></div>
+                                <div class="tl4"></div>
+                              </div>
+                            </div>
+
+                            <div class="start3">
+                              <img src="images/Severity_icon.svg" class="img-responsive bulletIcons new" alt="">
+                              <div class="magentaBubble">
+                                <p class="level">at its worst, was <span class="key1"></span></p>
+                                <div class="ml1"></div>
+                                <div class="ml2"></div>
+                                <div class="ml3"></div>
+                                <div class="ml4"></div>
+
+                              </div>
+                            </div>
+                            <div class="start3">
+                              <img src="images/Interference_icon.svg" class="img-responsive bulletIcons new" alt="">
+                              <div class="goldBubble">
+                                <p class="level">interfered <span class="key2"></span> with daily activities</p>
+                                <div class="gl1"></div>
+                                <div class="gl2"></div>
+                                <div class="gl3"></div>
+                                <div class="gl4"></div>
+
+                              </div>
+                            </div>
+                          </div>
+                        </div> -->
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="col-xs-12 col-lg-12 m3">
+                    <center>
+                      <div class="mobilePush">
+                        <button type="submit" class="btn btn-info" id="submitAnswer" tabindex="2" aria-hidden="false" aria-label="Next">Next</button>
+                      </div>
+                    </center>
+                  </div>
+                </div>
+              </form>
+
+              <div id="question">
+                <div class="questionBubbleWrapper">
+                  <div class="questionBubble" data-toggle="tooltip" id="help" data-placement="left" title="Information" tabindex="4" aria-hidden="false" aria-label="Information" role="button" data-toggle="modal" data-target="#whiteModal" aria-describedby="Information">
+                    <span id="Information" class="white">&#63;</span>
+                  </div>
+                </div>
+              </div>
+
+
+            </div>
+          </div>
+        </center>
+
+        <div id="slideOut" class="content-top">
+          <div id="one" class="blueTab" role="button" data-toggle="tab" tabindex="0" aria-label="Contact">
+            <center>
+              <p class="white">Contact</p>
+            </center>
+          </div>
+
+          <div class="modal-content">
+            <div class="modal-header">
+              <div class="closeThisPlease" id="close">
+                <button type="button" role="button" class="close" data-dismiss="modal" id="closeThisPlease" tabindex="0" aria-hidden="false" style="opacity:1" aria-label="Close">
+                  <span aria-hidden="true">
+                    <div class="circCont">
+                      <div class="circleClose" data-animation="magnify" data-remove="3000">
+                        <span></span>
+                      </div>
+                    </div>
+                  </span>
+                </button>
+              </div>
+              <br>
+              <center class="pt1">
+                <p class="whiteLarge p1" id="smaller">If you need assistance,<br>you can contact the PRO-CTCAE<br>team by phone at<br><a class="dial" href="tel:185595460868" tabindex="-1" aria-hidden="false" aria-label="1-855-954-0868">1-855-954-0868</a></p>
+              </center>
+            </div>
+            <div class="modal-body">
+
+              <form method="post" data-form-title="CONTACT US" class="slideForm" id="theform">
+                <p class="modalFooter">*Required Field</p>
+                <div class="form-group">
+                  <label for="formControl1">Name*</label>
+                  <input id="formControl1" type="text" class="form-control required secondOne mandatoryfields" tabindex="-1" aria-hidden="false" name="name" data-form-field="Name" required/>
+                </div>
+                <div class="form-group">
+                  <label for="formControl2">Email*</label>
+                  <input type="email" id="formControl2" class="form-control required secondOne mandatoryfields" tabindex="-1" aria-hidden="false" name="email" data-form-field="Email" required/>
+                </div>
+
+                <div class="form-group">
+                  <fieldset>
+                    <label for="general-inquiry">Reason for Contact*</label>
+                    <div class="around">
+                      <div class="vertical">
+                        <img src="images/General_Inquiry_icon.svg" class="img-responsive formIcon" alt="">
+                        <legend>Reason for Contact</legend>
+                        <label class="radio-inline">
+                          <input type="radio" name="optradio" class="required mandatoryfields checks" tabindex="-1" aria-hidden="false" id="general-inquiry" required checked>General Inquiry
+                        </label>
+                      </div>
+                      <div class="vertical">
+                        <img src="images/technical.svg" class="img-responsive formIcon" alt="">
+                        <label class="radio-inline">
+                          <input type="radio" name="optradio" class="required mandatoryfields checks" tabindex="-1" aria-hidden="false" required/>Technical Issue
+                        </label>
+                      </div>
+                      <div class="vertical">
+                        <img src="images/Other_icon.svg" class="img-responsive formIcon" alt="">
+                        <label class="radio-inline">
+                          <input type="radio" name="optradio" class="required mandatoryfields checks" tabindex="-1" aria-hidden="false" required/>Other
+                        </label>
+                      </div>
+                    </div>
+                  </fieldset>
+                </div>
+                <div class="form-group">
+                  <label for="formControl4">Message*</label>
+                  <textarea class="form-control thirdOne required mandatoryfields" id="formControl4" tabindex="-1" aria-hidden="false" name="message" required="true" rows="7" data-form-field="Message" required/></textarea>
+                </div>
+                <div class="bottomLine">
+                  <button type="submit" class="btn btn-info button-outlined" id="send" tabindex="-1" aria-hidden="false"><i class="fa fa-envelope-o"></i>Send</button>
+                </div>
+              </form>
+
+            </div>
+            <div class="modal-footer">
+
+            </div>
+          </div>
+
+        </div>
+
+        <div class="row m60">
+          <div class="col-xs-12 col-lg-12">
+
+            <div class="parentDiv">
+              <div class="relativeDiv">
+
+                <div class="popIn44">
+                  <div class="tools" id="Shows_page_number" role="dialog">
+                    <p class="white tool">Numbered circles shows what question<br>you are on in this survey segment</p>
+                  </div>
+                </div>
+
+                <div class="yellowDot44 outerDot transparent-opacity" tabindex="5" aria-hidden="true" aria-describedby="Shows_page_number" aria-label="Shows page number" role="tooltip">
+                  <div class="blueDot44 innerDot"></div>
+                </div>
+
+                <div class="indexing">
+                </div>
+
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <footer class="el-S secondFooter">
+    <div class="footer-wrapper">
+      <div class="verticalBottom">
+        <img src="images/NIH_logo_white.svg" class="img-responsive nih" alt="National Institutes of Health (NIH) Logo">
+      </div>
+    </footer>
+
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+
+    <script src="js/bootstrap.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+
+    <script src="js/bootstrap.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="http://jschr.github.io/textillate/jquery.textillate.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lettering.js/0.7.0/jquery.lettering.js"></script>
+    <script src="js/survey.js"></script>
+    <!-- <script src="js/theirs.js"></script> -->
+    <script src="js/key.js"></script>
+
+    <script>
+
+
+    if( $('h2.blue').height() > 36) {
+      $('.margin2').css('margin-top', '4%')
+    }
+
+    else {
+      $('.margin2').css('margin-top', '0%')
+    }
+
+    if ($('.personA .start3').length > 2) {
+      $('.m50').css('margin-top', '7em')
+    }
+    else {
+        $('.m50').css('margin-top', '4.5em')
+    }
+
+
+    </script>
+
+  </body>
+  </html>
