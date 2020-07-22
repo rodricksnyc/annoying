@@ -2,7 +2,6 @@
 <html lang="en">
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="css/bootstrap-theme.min.css">
@@ -14,8 +13,7 @@
   <link href="https://fonts.googleapis.com/css?family=Montserrat:800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/normalize.css">
 
-
-  <link rel="stylesheet" href="css/template.css"> 
+  <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
 
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
@@ -24,18 +22,6 @@
 
 </head>
 
-<style>
-
-#main-wrapper {
-  background: white;
-  overflow-y: hidden;
-  overflow-x: hidden;
-  height: 100%;
-}
-
-
-
-</style>
 
 <body>
 
@@ -153,8 +139,6 @@
           &#x2713; Thank you for contacting PRO-CTCAE.<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Message sent successfully.
         </div>
 
-
-
         <center class="top10">
           <div class="width8">
             <div class="blueOutline">
@@ -190,11 +174,13 @@
                       <div class="col-xs-12 col-lg-5 col-md-5 col-sm-12">
                         <div class="verticalStack personA" id="whiteBox">
                           <div id="firstChoice">
-                            <div class="fullCircle">
-                              <input name="PersonSelected" type="radio" id="PersonSelected_1" tabindex="1" class="mandatory checks" required>
-                              <label for="PersonSelected_1" class="activeRadio" aria-label="Person-A">
+                            <div displayorder="1" id="SB_43" class="fullCircle">
+                              <div class="custom-control2">
+                                <input type="radio" name="PersonSelected" value="1" class="custom-control-input2" id="PersonSelected_1">
+                                <label for="PersonSelected_1">
                                 <h3 class="white largest">Person A</h3>
-                              </label>
+                                </label>
+                              </div>
                             </div>
                           </div>
                           <div class="blueBack new">
@@ -257,9 +243,9 @@
                         <div displayorder="1" id="SB_75" class="verticalStack personB" attributes="">
                       <div displayorder="1" id="secondChoice" attributes="">
                         <div displayorder="1" id="SB_76" class="fullCircle" attributes="">
-                          <div class="custom-control custom-radio mandatory checks">
-                            <input type="radio" name="PersonSelected" value="2" class="custom-control-input mandatory checks" id="PersonSelected_2" tabindex="1">
-                            <label for="PersonSelected_2" class="activeRadio">
+                          <div class="custom-control2">
+                            <input type="radio" name="PersonSelected" value="2" class="custom-control-input2" id="PersonSelected_2" tabindex="1">
+                            <label for="PersonSelected_2">
                               <h3 class="white largest">Person B</h3>
                             </label>
                           </div>
@@ -288,7 +274,8 @@
                         <div displayorder="3" id="SB_86" class="start3" attributes="">
                           <img src="images/Interference_icon.svg" class="img-responsive bulletIcons new" alt="Gold icon with a man that represents interference">
                           <div displayorder="2" id="SB_87" class="goldBubble" attributes="">
-                            <p displayorder="1" id="SB_88" class="level" attributes="">interfered wery much with daily activities<span displayorder="2" id="SB_89" class="key2" attributes="">somewhat</span> with daily activities</p><div class="gl1" style="display: block;"></div><div class="gl2" style="display: block;"></div><div class="gl3" style="display: none;"></div><div class="gl4"></div></div>
+                            <p displayorder="1" id="SB_88" class="level" attributes="">interfered <span class="key1">very much</span> with daily activities</p>
+                            <div class="gl1" style="display: block;"></div><div class="gl2" style="display: block;"></div><div class="gl3" style="display: none;"></div><div class="gl4"></div></div>
                         </div>
                       </div>
                     </div>
@@ -506,7 +493,7 @@
     <!-- <script src="js/theirs.js"></script> -->
     <script src="js/key.js"></script>
 
-    <script>
+    <!-- <script>
 
 
     if( $('h2.blue').height() > 36) {
@@ -525,7 +512,7 @@
     }
 
 
-    </script>
+    </script> -->
 
   </body>
   </html>
